@@ -1,0 +1,77 @@
+unbind-key all
+
+borderwidth 3
+
+gap 40 10 10 10 
+ignore termbar
+autogroup 0 termbar
+
+# Set font of CWM
+fontname "Victor Mono:pixelsize=14"
+# Open my terminal xterm
+bind-key M-Return terminal
+# Close window
+bind-key M-q window-delete
+# Fullscreen Window
+bind-key M-f window-fullscreen
+# Maximise Window
+bind-key M-m window-maximize
+# Lock screen
+bind-key CM-l lock
+# Cycle windows
+bind-key M-Tab window-cycle
+# Cycle in reverse
+bind-key MS-Tab window-rcycle
+# tile vertically
+bind-key M-v window-vtile
+# tile horizontally
+bind-key M-h window-htile
+# restart cwm
+bind-key MS-r restart
+# logout
+bind-key MS-e quit
+# virtual desktop switching
+bind-key M-1 group-only-1
+bind-key M-2 group-only-2
+bind-key M-3 group-only-3
+bind-key M-4 group-only-4
+bind-key M-5 group-only-5
+bind-key M-6 group-only-6
+bind-key M-7 group-only-7
+bind-key M-8 group-only-8
+bind-key M-9 group-only-9
+# move window to virtual desktop
+bind-key MS-1 window-movetogroup-1
+bind-key MS-2 window-movetogroup-2
+bind-key MS-3 window-movetogroup-3
+bind-key MS-4 window-movetogroup-4
+bind-key MS-5 window-movetogroup-5
+bind-key MS-6 window-movetogroup-6
+bind-key MS-7 window-movetogroup-7
+bind-key MS-8 window-movetogroup-8
+bind-key MS-9 window-movetogroup-9
+# show all windows in all virtual desktops
+bind-key M-a group-toggle-all
+# commands to appear in command menu
+command firefox firefox
+command xterm xterm
+command emacs emacs
+command gajim gajim
+command xonotic xonotic-sdl
+command gimp gimp-2.10
+command thunderbird thunderbird
+command thunar thunar
+command veracrypt veracrypt
+# add window to current virtual desktop
+sticky yes
+# enable snapping
+snapdist 15
+# run command
+bind-key M-d menu-cmd
+# colors
+color activeborder "#2aa198"
+color inactiveborder "#839496"
+color menufg "#073642"
+color menubg "#002B36"
+color font "#839496"
+color selfont "#839496"

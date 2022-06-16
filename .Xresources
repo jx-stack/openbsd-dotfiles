@@ -1,0 +1,85 @@
+! Xterm Color Settings for Solarized Light
+
+!fonts&stuff
+xterm*faceSize: 14
+xterm*eightBitInput: false
+XTerm*faceName: Victor Mono:antialias=true
+!Background & foreground
+XTerm*background: #002B36
+XTerm*foreground: #D2D2D2
+XTerm*borderColor: #343434
+Xterm*scrollKey: true
+!Change border of Xterm
+XTerm*internalBorder: 10
+XTerm*termName: xterm-256color
+
+!Turning off scrollbar
+XTerm*scrollBar:  off
+
+!Starting up with a geometry
+XTerm*vt100*geometry:   93x26
+
+!Colors
+!-------------------------
+!black
+XTerm*color0: #222222
+XTerm*color8: #454545
+
+!red
+XTerm*color1: #9E5641
+XTerm*color9: #CC896D
+
+!green
+XTerm*color2: #6C7E55
+XTerm*color10: #C4DF90
+
+!yellow
+XTerm*color3: #CAAF2B
+XTerm*color11: #FFE080
+
+!blue
+XTerm*color4: #7FB8D8
+XTerm*color12: #B8DDEA
+
+!magenta
+XTerm*color5: #956D9D
+XTerm*color13: #C18FCB
+
+!cyan
+XTerm*color6: #4c8ea1
+XTerm*color14: #6bc1d0
+
+!white
+XTerm*color7: #808080
+XTerm*color15: #cdcdcd
+
+! Xidle settings
+XIdle*position : sw
+XIdle*delay    : 1
+XIdle*timeout  : 300
+
+
+! Xlock
+XLock.dpmsoff     : 1
+! plain white-on-black lock screen
+XLock.description : off
+XLock.echokeys    : off
+XLock.info        :
+XLock.background  : #002B36
+XLock.foreground  : #D2D2D2
+XLock.mode        : blank
+XLock.username    : username: 
+XLock.password    : password: 
+XLock.font        : Victor Mono
+XLock.planfont    : Victor Mono
+
+!!! termbar
+termbar*faceName: Victor Mono:pixelsize=14
+termbar*geometry: 2560x1+0+0
+!!! Two Monitors !!
+!termbar*geometry: 3840x1+0+0
+termbar*internalBorder: 6
+termbar*saveLines: 0
+termbar*scrollBar: false
+termbar*title: termbar
+
